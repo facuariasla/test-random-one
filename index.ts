@@ -8,7 +8,7 @@ app.get("/hola", (req,res) => {
   })
 })
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
   console.log(`hola soy express en el puerto ${port}`)
 });
 
