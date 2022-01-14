@@ -12,7 +12,7 @@ app.get("/db-env", (req, res) => {
     "db-host": process.env.DB_HOST,
   })
 })
-
+// algo
 app.get("/hola", (req,res) => {
   res.json({
     message: "hola soy el servidor, heroku"
