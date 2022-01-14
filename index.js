@@ -11,4 +11,5 @@ app.get("/hola", function (req, res) {
 app.listen(3000, function () {
     console.log("hola soy express en el puerto ".concat(port));
 });
-//minuto 16
+
+// termine el video 2 clase 6
